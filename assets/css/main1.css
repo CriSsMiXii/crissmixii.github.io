@@ -225,6 +225,7 @@
     display: flex;
     margin-left: 15px;
     align-items: baseline;
+    margin-top: 10px;
 }
 .iteam_price-old1{
     font-size: 15px;
@@ -252,21 +253,17 @@
     position: absolute;
     right: 0;
     top: 0;
-    width: 40px;
+    width: 50px;
     height: 36px;
     background-color: rgb(255, 216, 64, 1);
-}
-.sale-off-label{
-    color: #000;
-}
-
-.sale-off{
     color: red;
     text-align: center;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 550;
     line-height: 15px;
 }
+
+
 
 
 /* footer */
@@ -283,15 +280,14 @@
 .footer_list{
     list-style-type: none;
 }
-.footer_iteam-link{
+.footer_iteam{
+    margin-bottom: 10px;
     color: #000;
     font-size: 13px;
 }
-.footer_iteam{
-    margin-bottom: 10px;
-}
-.footer_support{
-    list-style-type: none;
+.footer_support-name:hover{
+    color: red;
+    cursor: pointer;
 }
 .footer_support-iteam{
     font-size: 15px;
