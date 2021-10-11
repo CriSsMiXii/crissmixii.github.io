@@ -8,16 +8,17 @@
 }
 
 #header{
-    height: 150px;
-    background-image: linear-gradient(0, #33ad33,rgb(39, 116, 39));
+    height: 130px;
+    /* background-image: linear-gradient(0, #33ad33,rgb(39, 116, 39)); */
     border-bottom-left-radius: 14px;
     border-bottom-right-radius: 14px;
     top: 0px;
 }
 .top-navigation{
     display: block;
-    height: 50px;
-    background-color: #000;
+    height: 33px;
+    background-color: #39b54a;
+    font-size: 13px;
 }
 .top-navigation li{
     display: inline-block;
@@ -26,7 +27,7 @@
 .top-navigation li a{
     color: white;
     /* text-decoration: none; */
-    line-height: 50px;
+    line-height: 33px;
     padding: 0 15px;  
 }
 .top-navigation li:hover a{
@@ -42,14 +43,14 @@
     margin-left: 100px;
 }
 .header_logo img{
-    width: 180px;
-    height: 96px;
+    width: 260px;
+    height: 100px;
     float: left;
 }
 .header_search{
     background-color: rgb(186, 195, 202);
     height: 40px;
-    width: 500px;
+    width: 450px;
     float: left;
     border-radius: 20px;
     margin-top: 30px;
@@ -71,20 +72,21 @@
 }
 
 .header_cart a img {
-    width: 50px;
+    width: 40px;
     height: 50px;
-    margin-top: 25px;
-    margin-left: 180px;
+    margin-top: 26px;
+    margin-left: 100px;
 }
 
 .signout{
-    float: left;
+    /* float: left; */
     display: inline-block;
     list-style-type: none;
     margin-top: 40px;
     float: right;
-    font-weight: 700;
+    font-weight: 500;
     margin-left: 20px ;
+    color: #000;
 }
 
 .header_cart li:hover{
@@ -97,7 +99,7 @@
 }
 
 .menu{
-    background-color: rgb(224, 224, 213);
+    background-color: #39b54a;
     height: 60px;
     box-shadow: 2px 4px 4px rgb(56, 55, 56);
     /* Căn giữa thẻ ul  */
@@ -116,7 +118,7 @@
 }
 
 .menu li a{
-    color: rgb(0, 0, 0);
+    color: #fff;
     line-height: 60px;
     padding: 0 25px;  
     text-decoration: none;
@@ -129,7 +131,7 @@
 .menu .menumobile{
     display: none;
     position: absolute;
-    background-color: rgb(224, 224, 213);
+    background-color: #39b54a;
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
     border-radius: 0px 0px 25px 25px;
 }
@@ -159,29 +161,29 @@
   
   #slideshow {
     overflow: hidden;
-    height: 400px;
-    width: 728px;
+    height: 384px;
+    width: 1200px;
     margin: 0 auto;
     margin-bottom: 30px;
   }
   
 .slide-wrapper {
-    width: 2912px;
+    width: 10000px;
     -webkit-animation: slide 20s ease infinite;
   }
   
 .slide {
     float: left;
-    height: 400px;
-    width: 728px;
+    height: 384px;
+    width: 1200px;
   }
 @-webkit-keyframes slide {
     20% {margin-left: 0px;}
-    30% {margin-left: -728px;}
-    50% {margin-left: -728px;}
-    60% {margin-left: -1456px;}
-    80% {margin-left: -1456px;}
-  }
+    30% {margin-left: -1200px;}
+    50% {margin-left: -1200px;}
+    60% {margin-left: -2400px;}
+    80% {margin-left: -2400px;}
+}
 
 
 #container{
@@ -284,6 +286,7 @@
     margin-bottom: 10px;
     color: #000;
     font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .footer_support-name:hover{
     color: red;
@@ -296,5 +299,5 @@
 .footer_support-name{
     text-decoration: none;
     color: #000;
-
 }
+
